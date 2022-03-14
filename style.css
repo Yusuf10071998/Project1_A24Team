@@ -26,7 +26,7 @@ li {
 }
 .header-list li {
   float: right;
-  padding: 33px 20px;
+  padding: 30px 20px;
 }
 .header-list li a {
   text-decoration: none;
@@ -36,7 +36,7 @@ li {
 .header-list li a:hover {
   background-color: rgba(255, 255, 255, 0.3);
   transition: all 0.5s;
-  padding: 33px 20px;
+  padding: 30px 20px;
 }
 #check {
   display: none;
@@ -60,6 +60,19 @@ label #btn {
   font-size: 85px;
   color: black;
   text-align: center;
+}
+.h1-main span {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 5s steps(22) 1s infinite alternate;
+}
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
 }
 .h1-main span {
   color: #26d0c9;
@@ -119,7 +132,7 @@ label #btn {
   font-style: bold;
   font-size: 20px;
 }
-.lesson-icon img{
+.lesson-icon img {
   width: 200px;
   border-radius: 50%;
 }
@@ -178,11 +191,11 @@ footer {
 .column-about h3 {
   text-align: left;
   color: black;
-  font-size:30px;
+  font-size: 30px;
   opacity: 0.8;
   padding-bottom: 10px;
 }
-.column-about p{
+.column-about p {
   font-size: 23px;
   padding-bottom: 10px;
 }
@@ -193,7 +206,7 @@ footer {
   color: black;
   opacity: 0.8;
 }
-.social i{
+.social i {
   padding-right: 15px;
   cursor: pointer;
 }
@@ -303,20 +316,20 @@ footer {
   .lesson {
     width: 100%;
   }
-  .h3-contactUs{
+  .h3-contactUs {
     font-size: 35px;
   }
   input,
   textarea {
     width: 250px;
   }
-  .column-about p{
+  .column-about p {
     font-size: 20px;
   }
   .social {
     font-size: 35px;
   }
-  .social i{
+  .social i {
     padding-right: 10px;
   }
   .row-copyright p {
