@@ -17,6 +17,9 @@ header {
   float: left;
   font-size: 36px;
   padding: 20px 30px;
+  color: black;
+  opacity: 0.8;
+  font-style: bold;
 }
 li {
   list-style: none;
