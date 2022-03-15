@@ -60,8 +60,6 @@ label #btn {
   font-size: 85px;
   color: black;
   text-align: center;
-}
-.h1-main span {
   overflow: hidden;
   white-space: nowrap;
   animation: typing 5s steps(22) 1s infinite alternate;
@@ -127,10 +125,11 @@ label #btn {
 }
 .lesson-icon p {
   top: 50px;
-  width: 100%;
+  width: 80%;
   color: black;
   font-style: bold;
   font-size: 20px;
+  display: inline-block;
 }
 .lesson-icon img {
   width: 200px;
@@ -301,7 +300,7 @@ footer {
     height: 35vh;
   }
   .h1-main {
-    font-size: 40px;
+    font-size: 35px;
   }
   .h3-main {
     font-size: 20px;
@@ -325,6 +324,9 @@ footer {
   }
   .column-about p {
     font-size: 20px;
+  }
+  .column-about h3{
+    font-size: 25px;
   }
   .social {
     font-size: 35px;
